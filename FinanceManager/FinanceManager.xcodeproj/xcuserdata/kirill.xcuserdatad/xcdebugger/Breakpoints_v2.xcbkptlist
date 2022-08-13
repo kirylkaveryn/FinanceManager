@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "47CF06AC-7584-4351-8A5B-13C3B6AA726E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3B745FB-F03D-4849-9B6C-1976DBA632A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/WalletList/RSWalletListCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "walletListDidSelectNewWallet()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE2D3737-9413-45AE-AE1B-B6F51123E9A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/EditTransaction/RRTransactionEditCoordiantor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7C7799E-2D9B-48BF-A701-6722E76820D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/EditTransaction/ViewController/RRTransactionEditViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD2D2743-5CF2-4E8A-9CDD-39348BF8A6E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/EditWallet/ViewController/RSWalletEditViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "RSWalletEditViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BD2D2743-5CF2-4E8A-9CDD-39348BF8A6E3 - a857fa222d9e71f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RSSchool_T12_FinanceManager.RSWalletEditViewController.scrollView.getter : Swift.Optional&lt;__C.UIScrollView&gt;"
+                  moduleName = "RSSchool_T12_FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirill/Development/RSSchool/kirylkaveryn-IOS2021/task-12/RSSchool_T12_FinanceManager/RSSchool_T12_FinanceManager/Screens/EditWallet/ViewController/RSWalletEditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "BD2D2743-5CF2-4E8A-9CDD-39348BF8A6E3 - f3bc468f2a886902"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RSSchool_T12_FinanceManager.RSWalletEditViewController.scrollView.setter : Swift.Optional&lt;__C.UIScrollView&gt;"
+                  moduleName = "RSSchool_T12_FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirill/Development/RSSchool/kirylkaveryn-IOS2021/task-12/RSSchool_T12_FinanceManager/RSSchool_T12_FinanceManager/Screens/EditWallet/ViewController/RSWalletEditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "BD2D2743-5CF2-4E8A-9CDD-39348BF8A6E3 - 378ff4c4b9208161"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RSSchool_T12_FinanceManager.RSWalletEditViewController.scrollView.modify : Swift.Optional&lt;__C.UIScrollView&gt;"
+                  moduleName = "RSSchool_T12_FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirill/Development/RSSchool/kirylkaveryn-IOS2021/task-12/RSSchool_T12_FinanceManager/RSSchool_T12_FinanceManager/Screens/EditWallet/ViewController/RSWalletEditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "BD2D2743-5CF2-4E8A-9CDD-39348BF8A6E3 - cb71e887f9d4e7a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RSSchool_T12_FinanceManager.RSWalletEditViewController.scrollView.modify : Swift.Optional&lt;__C.UIScrollView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "RSSchool_T12_FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirill/Development/RSSchool/kirylkaveryn-IOS2021/task-12/RSSchool_T12_FinanceManager/RSSchool_T12_FinanceManager/Screens/EditWallet/ViewController/RSWalletEditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "BD2D2743-5CF2-4E8A-9CDD-39348BF8A6E3 - bb4efce251444b29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RSSchool_T12_FinanceManager.RSWalletEditViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; RSSchool_T12_FinanceManager.RSWalletEditViewController"
+                  moduleName = "RSSchool_T12_FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirill/Development/RSSchool/kirylkaveryn-IOS2021/task-12/RSSchool_T12_FinanceManager/RSSchool_T12_FinanceManager/Screens/EditWallet/ViewController/RSWalletEditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "655">
+               </Location>
+               <Location
+                  uuid = "BD2D2743-5CF2-4E8A-9CDD-39348BF8A6E3 - 5685afca1056b150"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RSSchool_T12_FinanceManager.RSWalletEditViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;RSSchool_T12_FinanceManager.RSWalletEditViewController&gt;"
+                  moduleName = "RSSchool_T12_FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirill/Development/RSSchool/kirylkaveryn-IOS2021/task-12/RSSchool_T12_FinanceManager/RSSchool_T12_FinanceManager/Screens/EditWallet/ViewController/RSWalletEditViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "599">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "248EA086-8A5C-4F6C-BC8F-E09ECB06D5A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/EditTransaction/ViewController/RSTransactionEditViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "keyboardWillShow(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5DAE8C2-BF39-43D6-984D-BCF847E926F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/EditTransaction/ViewController/RSTransactionEditViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "keyboardWillShow(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4E2CA28-69AF-4B62-B5FB-91F5E966B178"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/WalletDetail/ViewController/RSWalletDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "updateView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A17BE8B-081E-4C0E-9515-412459E7FA35"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/WalletDetail/RSWalletDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "updateView(wallet:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A17BE8B-081E-4C0E-9515-412459E7FA35 - 41c25ea24fa73f64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RSSchool_T12_FinanceManager.RSWalletDetailViewModel.updateView(wallet: RSSchool_T12_FinanceManager.Wallet) -&gt; ()"
+                  moduleName = "RSSchool_T12_FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirill/Development/RSSchool/kirylkaveryn-IOS2021/task-12/RSSchool_T12_FinanceManager/RSSchool_T12_FinanceManager/Screens/WalletDetail/RSWalletDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "8A17BE8B-081E-4C0E-9515-412459E7FA35 - 595e15ac5e6a3c59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSOrderedSet) -&gt; Swift.String in RSSchool_T12_FinanceManager.RSWalletDetailViewModel.updateView(wallet: RSSchool_T12_FinanceManager.Wallet) -&gt; ()"
+                  moduleName = "RSSchool_T12_FinanceManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirill/Development/RSSchool/kirylkaveryn-IOS2021/task-12/RSSchool_T12_FinanceManager/RSSchool_T12_FinanceManager/Screens/WalletDetail/RSWalletDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "123">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B1ECFDD-25C3-4B30-A3A9-37BD2BB06BE1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/WalletDetail/RSWalletDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "updateView(wallet:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B5AC7FC-FA3A-437A-BCAC-E15656F30904"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/WalletDetail/RSWalletDetailCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "addTransactionButtonDidPress()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBC932FE-C33F-4A4E-9D5F-DBD2B1D31A0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/TransactionEdit/RSTransactionEditCoordiantor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "init(navigationController:coreDataManager:wallet:transactionControllerStyle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD3E8D23-DBFD-4BE6-A4BC-32AF7A0541FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/WalletsList/RSWalletListCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "walletListDidSelectWallet(atIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "991384CC-A32F-4862-AE64-88B21B8C8DAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/WalletsList/RSWalletListCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "walletListDidSelectWallet(atIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12911F40-CDB6-45F4-85F2-C76E7647DA7B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/TransactionEdit/RSTransactionEditViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "backButtonPressed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AE4F382-F09C-4750-A9BD-3D19739186DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/TransactionEdit/RSTransactionEditCoordiantor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "backButtonPressed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B91C90C-1E56-49FF-861C-21506AF66BDA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/TransactionDetail/RSTransactionDetailCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "transactionEditButtonDidPress()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F301627-022C-45CD-ACD2-76BE02A91BDD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/TransactionDetail/RSTransactionDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "updateView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E723301B-7BA8-451F-AA35-6F52BF3AEDB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/TransactionEdit/RSTransactionEditViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "updateTextFieldsWhenDidEditing()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "946823D8-F318-4EFC-BF79-153F5EEDED34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/WalletEdit/ViewController/RSWalletEditViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "updateView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE0258DC-ADFF-44D7-80BE-A4595BBFC7F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/WalletEdit/RSWalletEditCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "currencyButtonPressed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24B409DB-1E86-4DD7-BFD7-D378DE56CD5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T12_FinanceManager/Screens/Currency/RSCurrencyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

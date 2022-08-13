@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RSWalletDetailViewController" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+            <connections>
+                <outlet property="addTransactionButton" destination="9M9-hz-8f0" id="4Vj-mj-OjS"/>
+                <outlet property="collectionView" destination="wmI-RW-9gY" id="zMt-Zi-bB2"/>
+                <outlet property="seeAllTransactionButton" destination="MKq-PQ-qOg" id="czl-6h-Gef"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="walletName" destination="vLi-dW-4IP" id="GPG-Fh-c6Y"/>
+                <outlet property="walletSum" destination="KnZ-xJ-8qP" id="Gtx-2o-a8s"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" bounces="NO" scrollEnabled="NO" delaysContentTouches="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnA-HZ-spd">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IAe-QP-PLH" userLabel="EditView" customClass="RSViewWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                            <rect key="frame" x="17" y="40" width="380" height="75"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PkG-cS-TTa" userLabel="walletListButton" customClass="RSIconButton" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                                    <rect key="frame" x="30" y="17.5" width="40" height="40"/>
+                                    <color key="backgroundColor" red="0.84107333419999997" green="0.15130889419999999" blue="0.2205337882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="aJ2-bg-rle"/>
+                                        <constraint firstAttribute="height" constant="40" id="eQP-Nc-Lbr"/>
+                                    </constraints>
+                                    <state key="normal" image="wallets">
+                                        <color key="titleColor" red="0.24473369119999999" green="0.53363996739999997" blue="0.77299326660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="walletListButtonDidPress:" destination="-1" eventType="touchUpInside" id="lHv-e9-1Ww"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbD-vC-Lgi" userLabel="walletEditButton" customClass="RSIconButton" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                                    <rect key="frame" x="310" y="17.5" width="40" height="40"/>
+                                    <color key="backgroundColor" red="0.84107333419999997" green="0.15130889419999999" blue="0.2205337882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="SD9-3n-dr2"/>
+                                        <constraint firstAttribute="width" constant="40" id="eG0-5o-M6C"/>
+                                    </constraints>
+                                    <state key="normal" image="settings">
+                                        <color key="titleColor" red="0.24473369119999999" green="0.53363996739999997" blue="0.77299326660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="walletEditButtonDidPress:" destination="-1" eventType="touchUpInside" id="BhR-vo-tJr"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="walletName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLi-dW-4IP" userLabel="walletName">
+                                    <rect key="frame" x="90" y="23" width="200" height="29.5"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="75" id="BEP-Mm-bKu"/>
+                                <constraint firstItem="vLi-dW-4IP" firstAttribute="leading" secondItem="PkG-cS-TTa" secondAttribute="trailing" constant="20" id="BzL-QN-KHR"/>
+                                <constraint firstItem="ZbD-vC-Lgi" firstAttribute="centerY" secondItem="IAe-QP-PLH" secondAttribute="centerY" id="Fwa-0r-20j"/>
+                                <constraint firstItem="vLi-dW-4IP" firstAttribute="centerY" secondItem="IAe-QP-PLH" secondAttribute="centerY" id="GVF-kw-rkR"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75" id="YYI-kP-0kA"/>
+                                <constraint firstItem="PkG-cS-TTa" firstAttribute="centerY" secondItem="IAe-QP-PLH" secondAttribute="centerY" id="e41-d7-y0S"/>
+                                <constraint firstAttribute="trailing" secondItem="ZbD-vC-Lgi" secondAttribute="trailing" constant="30" id="jeh-x5-HRo"/>
+                                <constraint firstItem="ZbD-vC-Lgi" firstAttribute="leading" secondItem="vLi-dW-4IP" secondAttribute="trailing" constant="20" id="qwR-wT-svq"/>
+                                <constraint firstItem="PkG-cS-TTa" firstAttribute="leading" secondItem="IAe-QP-PLH" secondAttribute="leading" constant="30" id="yVQ-ho-K1Q"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LLH-Ii-2Rv" userLabel="ColorTheme" customClass="RSViewWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                            <rect key="frame" x="17" y="155" width="380" height="100"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="walletSum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KnZ-xJ-8qP">
+                                    <rect key="frame" x="92" y="28" width="196" height="44"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="36"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstItem="KnZ-xJ-8qP" firstAttribute="centerX" secondItem="LLH-Ii-2Rv" secondAttribute="centerX" id="M94-xZ-aQp"/>
+                                <constraint firstItem="KnZ-xJ-8qP" firstAttribute="centerY" secondItem="LLH-Ii-2Rv" secondAttribute="centerY" id="gQW-pi-PLv"/>
+                                <constraint firstAttribute="height" constant="100" id="wcQ-au-s9b"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P3b-Dw-LTU" userLabel="Currency" customClass="RSViewWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                            <rect key="frame" x="17" y="275" width="380" height="604"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transactions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKU-Mh-u2r">
+                                    <rect key="frame" x="20" y="30" width="110" height="21"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wmI-RW-9gY">
+                                    <rect key="frame" x="27" y="75" width="326" height="454"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LJI-N1-Spc">
+                                        <size key="itemSize" width="128" height="128"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKq-PQ-qOg" customClass="RSButtonWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                                    <rect key="frame" x="238" y="23" width="115" height="35"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="115" id="hc5-of-2Zk"/>
+                                        <constraint firstAttribute="height" constant="35" id="yPh-uz-jdH"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="See all">
+                                        <color key="titleColor" red="0.24473369119999999" green="0.53363996739999997" blue="0.77299326660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="seeAllButtonDidPress:" destination="-1" eventType="touchUpInside" id="9pC-ex-m5T"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9M9-hz-8f0" customClass="RSButtonWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                                    <rect key="frame" x="85" y="549" width="210" height="35"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="35" id="HB0-ml-FpO"/>
+                                        <constraint firstAttribute="width" constant="210" id="dfc-QD-wBy"/>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="yUb-dy-ScA"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Add transaction">
+                                        <color key="titleColor" red="0.24473369119999999" green="0.53363996739999997" blue="0.77299326660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="addTransactionButtonDidPress:" destination="-1" eventType="touchUpInside" id="S8p-1V-rnW"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="wmI-RW-9gY" secondAttribute="trailing" constant="27" id="Afx-Us-oH1"/>
+                                <constraint firstItem="9M9-hz-8f0" firstAttribute="centerX" secondItem="P3b-Dw-LTU" secondAttribute="centerX" id="Jlc-Tn-Bsp"/>
+                                <constraint firstAttribute="bottom" secondItem="wmI-RW-9gY" secondAttribute="bottom" constant="75" id="OVw-uI-BEh"/>
+                                <constraint firstItem="MKq-PQ-qOg" firstAttribute="centerY" secondItem="bKU-Mh-u2r" secondAttribute="centerY" id="ROj-70-G9b"/>
+                                <constraint firstItem="wmI-RW-9gY" firstAttribute="top" secondItem="P3b-Dw-LTU" secondAttribute="top" constant="75" id="Uo9-Sm-w2N"/>
+                                <constraint firstItem="bKU-Mh-u2r" firstAttribute="leading" secondItem="P3b-Dw-LTU" secondAttribute="leading" constant="20" id="jpf-es-sED"/>
+                                <constraint firstAttribute="bottom" secondItem="9M9-hz-8f0" secondAttribute="bottom" constant="20" id="qbn-4v-DLO"/>
+                                <constraint firstAttribute="trailing" secondItem="MKq-PQ-qOg" secondAttribute="trailing" constant="27" id="vOi-du-7Ac"/>
+                                <constraint firstItem="bKU-Mh-u2r" firstAttribute="top" secondItem="P3b-Dw-LTU" secondAttribute="top" constant="30" id="vvp-KI-qix"/>
+                                <constraint firstItem="wmI-RW-9gY" firstAttribute="leading" secondItem="P3b-Dw-LTU" secondAttribute="leading" constant="27" id="ywe-su-3mJ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="yzR-5P-8JN"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="P3b-Dw-LTU" firstAttribute="leading" secondItem="W56-9l-cVd" secondAttribute="leading" constant="17" id="0Ps-HV-idx"/>
+                        <constraint firstItem="W56-9l-cVd" firstAttribute="trailing" secondItem="LLH-Ii-2Rv" secondAttribute="trailing" constant="17" id="625-bA-Swt"/>
+                        <constraint firstItem="W56-9l-cVd" firstAttribute="trailing" secondItem="P3b-Dw-LTU" secondAttribute="trailing" constant="17" id="7NW-bS-DhD"/>
+                        <constraint firstItem="LLH-Ii-2Rv" firstAttribute="leading" secondItem="W56-9l-cVd" secondAttribute="leading" constant="17" id="Fc7-UX-7Iy"/>
+                        <constraint firstItem="IAe-QP-PLH" firstAttribute="centerX" secondItem="tFH-Ku-BXq" secondAttribute="centerX" id="QfR-ya-szV"/>
+                        <constraint firstItem="W56-9l-cVd" firstAttribute="trailing" secondItem="IAe-QP-PLH" secondAttribute="trailing" constant="17" id="XfK-oX-bG7"/>
+                        <constraint firstItem="IAe-QP-PLH" firstAttribute="top" secondItem="tFH-Ku-BXq" secondAttribute="top" constant="40" id="bAf-5a-yzY"/>
+                        <constraint firstItem="LLH-Ii-2Rv" firstAttribute="top" secondItem="IAe-QP-PLH" secondAttribute="bottom" constant="40" id="hg9-yE-2wc"/>
+                        <constraint firstItem="IAe-QP-PLH" firstAttribute="leading" secondItem="W56-9l-cVd" secondAttribute="leading" constant="17" id="krw-O2-UPR"/>
+                        <constraint firstItem="W56-9l-cVd" firstAttribute="bottom" secondItem="P3b-Dw-LTU" secondAttribute="bottom" constant="17" id="mVb-ic-Tf0"/>
+                        <constraint firstItem="P3b-Dw-LTU" firstAttribute="top" secondItem="LLH-Ii-2Rv" secondAttribute="bottom" constant="20" id="tXt-nR-rLj"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="tFH-Ku-BXq"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="W56-9l-cVd"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TnA-HZ-spd" secondAttribute="trailing" id="54g-hT-2iS"/>
+                <constraint firstAttribute="bottom" secondItem="TnA-HZ-spd" secondAttribute="bottom" id="LFJ-Vr-qfN"/>
+                <constraint firstItem="TnA-HZ-spd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kyJ-PA-eP5"/>
+                <constraint firstItem="TnA-HZ-spd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="x7x-dK-2At"/>
+            </constraints>
+            <point key="canvasLocation" x="11.594202898550726" y="51.5625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="settings" width="40" height="40"/>
+        <image name="wallets" width="40" height="40"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

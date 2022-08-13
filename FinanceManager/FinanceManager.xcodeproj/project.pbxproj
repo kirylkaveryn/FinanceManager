@@ -1,0 +1,1307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED332CB327107CF00092F947 /* RSSegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CB227107CF00092F947 /* RSSegmentedControlTests.swift */; };
+		ED332CB527108A070092F947 /* RSWalletListCollectionViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CB427108A070092F947 /* RSWalletListCollectionViewCellTests.swift */; };
+		ED332CB9271090F70092F947 /* RSColorThemeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CB8271090F70092F947 /* RSColorThemeViewModelTests.swift */; };
+		ED332CBC271091590092F947 /* RSColorThemeCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CBB271091590092F947 /* RSColorThemeCoordinatorMock.swift */; };
+		ED332CBE271094550092F947 /* RSBackgroundImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CBD271094550092F947 /* RSBackgroundImageTests.swift */; };
+		ED332CC12710984B0092F947 /* RSWalletDetailCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CC02710984B0092F947 /* RSWalletDetailCoordinatorTests.swift */; };
+		ED332CC42710BB5E0092F947 /* RSTransactionDetailCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CC32710BB5E0092F947 /* RSTransactionDetailCoordinatorTests.swift */; };
+		ED332CC72710BE770092F947 /* RSTransactionListCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CC62710BE770092F947 /* RSTransactionListCoordinatorTests.swift */; };
+		ED332CC92710C0EB0092F947 /* RSCollectionViewHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CC82710C0EB0092F947 /* RSCollectionViewHeaderTests.swift */; };
+		ED332CCB2710C2A90092F947 /* RSColorThemeCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CCA2710C2A90092F947 /* RSColorThemeCellTests.swift */; };
+		ED332CCD2710C6160092F947 /* RSCollectionViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CCC2710C6160092F947 /* RSCollectionViewControllerMock.swift */; };
+		ED332CCF2710CB330092F947 /* RSTransactionDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CCE2710CB330092F947 /* RSTransactionDetailViewControllerTests.swift */; };
+		ED332CD22710CBC80092F947 /* RSTransactionDetailViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CD12710CBC80092F947 /* RSTransactionDetailViewModelMock.swift */; };
+		ED332CD42710D6FC0092F947 /* RSWalletDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CD32710D6FC0092F947 /* RSWalletDetailViewControllerTests.swift */; };
+		ED332CD72710D7590092F947 /* RSWalletDetailViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332CD62710D7590092F947 /* RSWalletDetailViewModelMock.swift */; };
+		ED94D9CE270F4FFA00C61306 /* RSWalletEditCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9CD270F4FFA00C61306 /* RSWalletEditCoordinatorMock.swift */; };
+		ED94D9D6270F581C00C61306 /* RSApplicationCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9D5270F581C00C61306 /* RSApplicationCoordinatorTests.swift */; };
+		EDA38CEF2710F0D100891122 /* RSTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA38CEE2710F0D100891122 /* RSTextViewTests.swift */; };
+		EDA38CF12710F9A300891122 /* doge.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA38CF02710F9A300891122 /* doge.png */; };
+		EDA453B926FA8002003C0C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA453B826FA8002003C0C18 /* AppDelegate.swift */; };
+		EDA453C326FA8002003C0C18 /* FinanceManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDA453C126FA8002003C0C18 /* FinanceManager.xcdatamodeld */; };
+		EDA453C526FA8005003C0C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA453C426FA8005003C0C18 /* Assets.xcassets */; };
+		EDA453C826FA8005003C0C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA453C626FA8005003C0C18 /* LaunchScreen.storyboard */; };
+		EDA453DE26FA8005003C0C18 /* RSSchool_T12_FinanceManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA453DD26FA8005003C0C18 /* RSSchool_T12_FinanceManagerUITests.swift */; };
+		EDA453EE26FB1ECD003C0C18 /* RSCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA453EC26FB1ECD003C0C18 /* RSCollectionViewController.swift */; };
+		EDA453EF26FB1ECD003C0C18 /* RSCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA453ED26FB1ECD003C0C18 /* RSCollectionViewController.xib */; };
+		EDA453F226FB2154003C0C18 /* RSApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA453F126FB2154003C0C18 /* RSApplicationCoordinator.swift */; };
+		EDA453F726FB32ED003C0C18 /* RSWalletListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA453F626FB32ED003C0C18 /* RSWalletListCoordinator.swift */; };
+		EDA453FA26FB44D4003C0C18 /* RSWalletListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA453F826FB44D4003C0C18 /* RSWalletListCollectionViewCell.swift */; };
+		EDA453FB26FB44D4003C0C18 /* RSWalletListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA453F926FB44D4003C0C18 /* RSWalletListCollectionViewCell.xib */; };
+		EDA4540226FB55A3003C0C18 /* RSWalletListCollectionViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA4540026FB55A3003C0C18 /* RSWalletListCollectionViewHeader.xib */; };
+		EDA4540326FB55A3003C0C18 /* RSWalletListCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4540126FB55A3003C0C18 /* RSWalletListCollectionViewHeader.swift */; };
+		EDA4540A26FB62C5003C0C18 /* RSWalletListVewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4540926FB62C5003C0C18 /* RSWalletListVewModel.swift */; };
+		EDA4540D26FB8436003C0C18 /* UIFonts+CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4540C26FB8436003C0C18 /* UIFonts+CustomFonts.swift */; };
+		EDA4541226FB84E2003C0C18 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDA4540F26FB84E1003C0C18 /* Montserrat-Medium.ttf */; };
+		EDA4541326FB84E2003C0C18 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDA4541026FB84E2003C0C18 /* Montserrat-SemiBold.ttf */; };
+		EDA4541426FB84E2003C0C18 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDA4541126FB84E2003C0C18 /* Montserrat-Bold.ttf */; };
+		EDA4541626FB8847003C0C18 /* UIColor+DefaultColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4541526FB8847003C0C18 /* UIColor+DefaultColors.swift */; };
+		EDA4541D26FB8E7F003C0C18 /* RSWalletEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4541B26FB8E7F003C0C18 /* RSWalletEditViewController.swift */; };
+		EDA4541E26FB8E7F003C0C18 /* RSWalletEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA4541C26FB8E7F003C0C18 /* RSWalletEditViewController.xib */; };
+		EDA4542026FB9D8D003C0C18 /* RSWalletEditCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4541F26FB9D8D003C0C18 /* RSWalletEditCoordinator.swift */; };
+		EDA4542226FB9E73003C0C18 /* RSWalletEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4542126FB9E73003C0C18 /* RSWalletEditViewModel.swift */; };
+		EDA4542426FC8FBD003C0C18 /* RSThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4542326FC8FBD003C0C18 /* RSThemes.swift */; };
+		EDA4542926FC9DCC003C0C18 /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4542826FC9DCC003C0C18 /* CurrencyConverter.swift */; };
+		EDA4542C26FCD117003C0C18 /* RSViewWithGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4542B26FCD117003C0C18 /* RSViewWithGradient.swift */; };
+		EDA4543326FCDB26003C0C18 /* RSViewControllerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4543226FCDB26003C0C18 /* RSViewControllerAnimation.swift */; };
+		EDA4543526FCF279003C0C18 /* RSButtonWithGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4543426FCF279003C0C18 /* RSButtonWithGradient.swift */; };
+		EDA4543726FCF966003C0C18 /* RSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4543626FCF966003C0C18 /* RSTextField.swift */; };
+		EDA4543C26FD0131003C0C18 /* RSColorThemeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4543B26FD0131003C0C18 /* RSColorThemeCoordinator.swift */; };
+		EDA4544226FD0258003C0C18 /* RSColorThemeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4544126FD0258003C0C18 /* RSColorThemeViewModel.swift */; };
+		EDA4544626FD078A003C0C18 /* RSColorThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4544426FD078A003C0C18 /* RSColorThemeCell.swift */; };
+		EDA4544726FD078A003C0C18 /* RSColorThemeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA4544526FD078A003C0C18 /* RSColorThemeCell.xib */; };
+		EDA4545426FDEEA5003C0C18 /* RSCurrencyCoordiantor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4544D26FDEEA4003C0C18 /* RSCurrencyCoordiantor.swift */; };
+		EDA4545526FDEEA5003C0C18 /* RSCurrencyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4544F26FDEEA4003C0C18 /* RSCurrencyCollectionViewCell.swift */; };
+		EDA4545626FDEEA5003C0C18 /* RSCollectionViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA4545026FDEEA4003C0C18 /* RSCollectionViewHeader.xib */; };
+		EDA4545726FDEEA5003C0C18 /* RSCurrencyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA4545126FDEEA4003C0C18 /* RSCurrencyCollectionViewCell.xib */; };
+		EDA4545826FDEEA5003C0C18 /* RSCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4545226FDEEA4003C0C18 /* RSCollectionViewHeader.swift */; };
+		EDA4545926FDEEA5003C0C18 /* RSCurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4545326FDEEA4003C0C18 /* RSCurrencyViewModel.swift */; };
+		EDA4545B26FE612F003C0C18 /* DateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4545A26FE612F003C0C18 /* DateConverter.swift */; };
+		EDA4549A26FF991E003C0C18 /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4549626FF991E003C0C18 /* Transaction+CoreDataClass.swift */; };
+		EDA4549B26FF991E003C0C18 /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4549726FF991E003C0C18 /* Transaction+CoreDataProperties.swift */; };
+		EDA4549F26FF99DA003C0C18 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4549E26FF99DA003C0C18 /* CoreDataManager.swift */; };
+		EDA454A626FFC381003C0C18 /* Wallet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454A426FFC381003C0C18 /* Wallet+CoreDataClass.swift */; };
+		EDA454A726FFC381003C0C18 /* Wallet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454A526FFC381003C0C18 /* Wallet+CoreDataProperties.swift */; };
+		EDA454AE27009A38003C0C18 /* RSTransactionEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454A927009A38003C0C18 /* RSTransactionEditViewModel.swift */; };
+		EDA454AF27009A38003C0C18 /* RSTransactionEditCoordiantor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454AA27009A38003C0C18 /* RSTransactionEditCoordiantor.swift */; };
+		EDA454B027009A38003C0C18 /* RSTransactionEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA454AC27009A38003C0C18 /* RSTransactionEditViewController.xib */; };
+		EDA454B127009A38003C0C18 /* RSTransactionEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454AD27009A38003C0C18 /* RSTransactionEditViewController.swift */; };
+		EDA454B42700F84A003C0C18 /* RSTransactionListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454B32700F84A003C0C18 /* RSTransactionListCoordinator.swift */; };
+		EDA454B9270100BB003C0C18 /* RSTransactionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA454B7270100BB003C0C18 /* RSTransactionCollectionViewCell.xib */; };
+		EDA454BA270100BB003C0C18 /* RSTransactionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454B8270100BB003C0C18 /* RSTransactionCollectionViewCell.swift */; };
+		EDA454BC2701054A003C0C18 /* RSTransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454BB2701054A003C0C18 /* RSTransactionListViewModel.swift */; };
+		EDA454C027010D41003C0C18 /* RSWalletDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454BF27010D41003C0C18 /* RSWalletDetailCoordinator.swift */; };
+		EDA454C227010E3F003C0C18 /* RSWalletDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454C127010E3F003C0C18 /* RSWalletDetailViewModel.swift */; };
+		EDA454C5270114CA003C0C18 /* RSCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454C4270114CA003C0C18 /* RSCoordinator.swift */; };
+		EDA454C8270119D0003C0C18 /* RSWalletDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454C6270119D0003C0C18 /* RSWalletDetailViewController.swift */; };
+		EDA454C9270119D0003C0C18 /* RSWalletDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA454C7270119D0003C0C18 /* RSWalletDetailViewController.xib */; };
+		EDA454CC27012EAF003C0C18 /* RSIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454CB27012EAF003C0C18 /* RSIconButton.swift */; };
+		EDA454CE27013342003C0C18 /* RSIconDeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454CD27013342003C0C18 /* RSIconDeleteButton.swift */; };
+		EDA454D227027A71003C0C18 /* RSImageViewWithBlackBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454D127027A71003C0C18 /* RSImageViewWithBlackBorder.swift */; };
+		EDA454D427034F9E003C0C18 /* RSSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454D327034F9E003C0C18 /* RSSegmentedControl.swift */; };
+		EDA454D627048AC3003C0C18 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454D527048AC3003C0C18 /* UIView+Extensions.swift */; };
+		EDA454D827048B62003C0C18 /* RSBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454D727048B62003C0C18 /* RSBackgroundImage.swift */; };
+		EDA454DD2704CF55003C0C18 /* RSTransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454DB2704CF54003C0C18 /* RSTransactionDetailViewController.swift */; };
+		EDA454DE2704CF55003C0C18 /* RSTransactionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA454DC2704CF54003C0C18 /* RSTransactionDetailViewController.xib */; };
+		EDA454E02704E63F003C0C18 /* RSTransactionDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454DF2704E63F003C0C18 /* RSTransactionDetailCoordinator.swift */; };
+		EDA454E22704E651003C0C18 /* RSTransactionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454E12704E651003C0C18 /* RSTransactionDetailViewModel.swift */; };
+		EDA454E4270B5274003C0C18 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454E3270B5274003C0C18 /* UserDefaults.swift */; };
+		EDA454EA270CD186003C0C18 /* CoreDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454E9270CD184003C0C18 /* CoreDataManagerTests.swift */; };
+		EDA454EE270CD86B003C0C18 /* CoreDataManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454ED270CD86B003C0C18 /* CoreDataManagerMock.swift */; };
+		EDA454F0270CF081003C0C18 /* CurrencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454EF270CF081003C0C18 /* CurrencyConverterTests.swift */; };
+		EDA454F2270CF3EF003C0C18 /* DateConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454F1270CF3EF003C0C18 /* DateConverterTests.swift */; };
+		EDA454F4270DC402003C0C18 /* RSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454F3270DC402003C0C18 /* RSTextView.swift */; };
+		EDA454F6270DE506003C0C18 /* RSWalletEditViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454F5270DE506003C0C18 /* RSWalletEditViewControllerTests.swift */; };
+		EDA454F9270E0004003C0C18 /* RSWalletEditViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454F8270E0004003C0C18 /* RSWalletEditViewModelMock.swift */; };
+		EDA454FB270E00A6003C0C18 /* RSTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454FA270E00A6003C0C18 /* RSTextFieldTests.swift */; };
+		EDA454FD270E0A94003C0C18 /* RSColorThemeCoordiantorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454FC270E0A94003C0C18 /* RSColorThemeCoordiantorTests.swift */; };
+		EDA454FF270E161B003C0C18 /* RSCurrencyCoordiantorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA454FE270E161B003C0C18 /* RSCurrencyCoordiantorTests.swift */; };
+		EDA45501270E3B43003C0C18 /* RSCurrencyViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA45500270E3B42003C0C18 /* RSCurrencyViewModelTests.swift */; };
+		EDA45503270F0D63003C0C18 /* RSWalletEditCoordiantorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA45502270F0D62003C0C18 /* RSWalletEditCoordiantorTests.swift */; };
+		EDA45505270F29E5003C0C18 /* RSWalletEditViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA45504270F29E4003C0C18 /* RSWalletEditViewModelTests.swift */; };
+		EDA45507270F2AF0003C0C18 /* RSWalletEditViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA45506270F2AF0003C0C18 /* RSWalletEditViewControllerMock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA453CF26FA8005003C0C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA453AD26FA8001003C0C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA453B426FA8001003C0C18;
+			remoteInfo = RSSchool_T12_FinanceManager;
+		};
+		EDA453DA26FA8005003C0C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA453AD26FA8001003C0C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA453B426FA8001003C0C18;
+			remoteInfo = RSSchool_T12_FinanceManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED332CB227107CF00092F947 /* RSSegmentedControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSegmentedControlTests.swift; sourceTree = "<group>"; };
+		ED332CB427108A070092F947 /* RSWalletListCollectionViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletListCollectionViewCellTests.swift; sourceTree = "<group>"; };
+		ED332CB8271090F70092F947 /* RSColorThemeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSColorThemeViewModelTests.swift; sourceTree = "<group>"; };
+		ED332CBB271091590092F947 /* RSColorThemeCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSColorThemeCoordinatorMock.swift; sourceTree = "<group>"; };
+		ED332CBD271094550092F947 /* RSBackgroundImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSBackgroundImageTests.swift; sourceTree = "<group>"; };
+		ED332CC02710984B0092F947 /* RSWalletDetailCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletDetailCoordinatorTests.swift; sourceTree = "<group>"; };
+		ED332CC32710BB5E0092F947 /* RSTransactionDetailCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTransactionDetailCoordinatorTests.swift; sourceTree = "<group>"; };
+		ED332CC62710BE770092F947 /* RSTransactionListCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTransactionListCoordinatorTests.swift; sourceTree = "<group>"; };
+		ED332CC82710C0EB0092F947 /* RSCollectionViewHeaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCollectionViewHeaderTests.swift; sourceTree = "<group>"; };
+		ED332CCA2710C2A90092F947 /* RSColorThemeCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSColorThemeCellTests.swift; sourceTree = "<group>"; };
+		ED332CCC2710C6160092F947 /* RSCollectionViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCollectionViewControllerMock.swift; sourceTree = "<group>"; };
+		ED332CCE2710CB330092F947 /* RSTransactionDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTransactionDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		ED332CD12710CBC80092F947 /* RSTransactionDetailViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTransactionDetailViewModelMock.swift; sourceTree = "<group>"; };
+		ED332CD32710D6FC0092F947 /* RSWalletDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		ED332CD62710D7590092F947 /* RSWalletDetailViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletDetailViewModelMock.swift; sourceTree = "<group>"; };
+		ED94D9CD270F4FFA00C61306 /* RSWalletEditCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletEditCoordinatorMock.swift; sourceTree = "<group>"; };
+		ED94D9D5270F581C00C61306 /* RSApplicationCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSApplicationCoordinatorTests.swift; sourceTree = "<group>"; };
+		EDA38CEE2710F0D100891122 /* RSTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTextViewTests.swift; sourceTree = "<group>"; };
+		EDA38CF02710F9A300891122 /* doge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doge.png; sourceTree = "<group>"; };
+		EDA453B526FA8002003C0C18 /* FinanceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA453B826FA8002003C0C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA453C226FA8002003C0C18 /* RSSchool_T12_FinanceManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSSchool_T12_FinanceManager.xcdatamodel; sourceTree = "<group>"; };
+		EDA453C426FA8005003C0C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA453C726FA8005003C0C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA453C926FA8005003C0C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA453CE26FA8005003C0C18 /* FinanceManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA453D426FA8005003C0C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA453D926FA8005003C0C18 /* FinanceManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA453DD26FA8005003C0C18 /* RSSchool_T12_FinanceManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSchool_T12_FinanceManagerUITests.swift; sourceTree = "<group>"; };
+		EDA453DF26FA8005003C0C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA453EC26FB1ECD003C0C18 /* RSCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCollectionViewController.swift; sourceTree = "<group>"; };
+		EDA453ED26FB1ECD003C0C18 /* RSCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSCollectionViewController.xib; sourceTree = "<group>"; };
+		EDA453F126FB2154003C0C18 /* RSApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSApplicationCoordinator.swift; sourceTree = "<group>"; };
+		EDA453F626FB32ED003C0C18 /* RSWalletListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletListCoordinator.swift; sourceTree = "<group>"; };
+		EDA453F826FB44D4003C0C18 /* RSWalletListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletListCollectionViewCell.swift; sourceTree = "<group>"; };
+		EDA453F926FB44D4003C0C18 /* RSWalletListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSWalletListCollectionViewCell.xib; sourceTree = "<group>"; };
+		EDA4540026FB55A3003C0C18 /* RSWalletListCollectionViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSWalletListCollectionViewHeader.xib; sourceTree = "<group>"; };
+		EDA4540126FB55A3003C0C18 /* RSWalletListCollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSWalletListCollectionViewHeader.swift; sourceTree = "<group>"; };
+		EDA4540926FB62C5003C0C18 /* RSWalletListVewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletListVewModel.swift; sourceTree = "<group>"; };
+		EDA4540C26FB8436003C0C18 /* UIFonts+CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFonts+CustomFonts.swift"; sourceTree = "<group>"; };
+		EDA4540F26FB84E1003C0C18 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		EDA4541026FB84E2003C0C18 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		EDA4541126FB84E2003C0C18 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		EDA4541526FB8847003C0C18 /* UIColor+DefaultColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+DefaultColors.swift"; sourceTree = "<group>"; };
+		EDA4541B26FB8E7F003C0C18 /* RSWalletEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletEditViewController.swift; sourceTree = "<group>"; };
+		EDA4541C26FB8E7F003C0C18 /* RSWalletEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSWalletEditViewController.xib; sourceTree = "<group>"; };
+		EDA4541F26FB9D8D003C0C18 /* RSWalletEditCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletEditCoordinator.swift; sourceTree = "<group>"; };
+		EDA4542126FB9E73003C0C18 /* RSWalletEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletEditViewModel.swift; sourceTree = "<group>"; };
+		EDA4542326FC8FBD003C0C18 /* RSThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSThemes.swift; sourceTree = "<group>"; };
+		EDA4542826FC9DCC003C0C18 /* CurrencyConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverter.swift; sourceTree = "<group>"; };
+		EDA4542B26FCD117003C0C18 /* RSViewWithGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSViewWithGradient.swift; sourceTree = "<group>"; };
+		EDA4543226FCDB26003C0C18 /* RSViewControllerAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSViewControllerAnimation.swift; sourceTree = "<group>"; };
+		EDA4543426FCF279003C0C18 /* RSButtonWithGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSButtonWithGradient.swift; sourceTree = "<group>"; };
+		EDA4543626FCF966003C0C18 /* RSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTextField.swift; sourceTree = "<group>"; };
+		EDA4543B26FD0131003C0C18 /* RSColorThemeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSColorThemeCoordinator.swift; sourceTree = "<group>"; };
+		EDA4544126FD0258003C0C18 /* RSColorThemeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSColorThemeViewModel.swift; sourceTree = "<group>"; };
+		EDA4544426FD078A003C0C18 /* RSColorThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSColorThemeCell.swift; sourceTree = "<group>"; };
+		EDA4544526FD078A003C0C18 /* RSColorThemeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSColorThemeCell.xib; sourceTree = "<group>"; };
+		EDA4544D26FDEEA4003C0C18 /* RSCurrencyCoordiantor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCurrencyCoordiantor.swift; sourceTree = "<group>"; };
+		EDA4544F26FDEEA4003C0C18 /* RSCurrencyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCurrencyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EDA4545026FDEEA4003C0C18 /* RSCollectionViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSCollectionViewHeader.xib; sourceTree = "<group>"; };
+		EDA4545126FDEEA4003C0C18 /* RSCurrencyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSCurrencyCollectionViewCell.xib; sourceTree = "<group>"; };
+		EDA4545226FDEEA4003C0C18 /* RSCollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCollectionViewHeader.swift; sourceTree = "<group>"; };
+		EDA4545326FDEEA4003C0C18 /* RSCurrencyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCurrencyViewModel.swift; sourceTree = "<group>"; };
+		EDA4545A26FE612F003C0C18 /* DateConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConverter.swift; sourceTree = "<group>"; };
+		EDA4549626FF991E003C0C18 /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EDA4549726FF991E003C0C18 /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EDA4549E26FF99DA003C0C18 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EDA454A426FFC381003C0C18 /* Wallet+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wallet+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EDA454A526FFC381003C0C18 /* Wallet+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wallet+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EDA454A927009A38003C0C18 /* RSTransactionEditViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSTransactionEditViewModel.swift; sourceTree = "<group>"; };
+		EDA454AA27009A38003C0C18 /* RSTransactionEditCoordiantor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSTransactionEditCoordiantor.swift; sourceTree = "<group>"; };
+		EDA454AC27009A38003C0C18 /* RSTransactionEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSTransactionEditViewController.xib; sourceTree = "<group>"; };
+		EDA454AD27009A38003C0C18 /* RSTransactionEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSTransactionEditViewController.swift; sourceTree = "<group>"; };
+		EDA454B32700F84A003C0C18 /* RSTransactionListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTransactionListCoordinator.swift; sourceTree = "<group>"; };
+		EDA454B7270100BB003C0C18 /* RSTransactionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSTransactionCollectionViewCell.xib; sourceTree = "<group>"; };
+		EDA454B8270100BB003C0C18 /* RSTransactionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSTransactionCollectionViewCell.swift; sourceTree = "<group>"; };
+		EDA454BB2701054A003C0C18 /* RSTransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTransactionListViewModel.swift; sourceTree = "<group>"; };
+		EDA454BF27010D41003C0C18 /* RSWalletDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletDetailCoordinator.swift; sourceTree = "<group>"; };
+		EDA454C127010E3F003C0C18 /* RSWalletDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletDetailViewModel.swift; sourceTree = "<group>"; };
+		EDA454C4270114CA003C0C18 /* RSCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCoordinator.swift; sourceTree = "<group>"; };
+		EDA454C6270119D0003C0C18 /* RSWalletDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletDetailViewController.swift; sourceTree = "<group>"; };
+		EDA454C7270119D0003C0C18 /* RSWalletDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSWalletDetailViewController.xib; sourceTree = "<group>"; };
+		EDA454CB27012EAF003C0C18 /* RSIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSIconButton.swift; sourceTree = "<group>"; };
+		EDA454CD27013342003C0C18 /* RSIconDeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSIconDeleteButton.swift; sourceTree = "<group>"; };
+		EDA454D127027A71003C0C18 /* RSImageViewWithBlackBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSImageViewWithBlackBorder.swift; sourceTree = "<group>"; };
+		EDA454D327034F9E003C0C18 /* RSSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSegmentedControl.swift; sourceTree = "<group>"; };
+		EDA454D527048AC3003C0C18 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		EDA454D727048B62003C0C18 /* RSBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSBackgroundImage.swift; sourceTree = "<group>"; };
+		EDA454DB2704CF54003C0C18 /* RSTransactionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTransactionDetailViewController.swift; sourceTree = "<group>"; };
+		EDA454DC2704CF54003C0C18 /* RSTransactionDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSTransactionDetailViewController.xib; sourceTree = "<group>"; };
+		EDA454DF2704E63F003C0C18 /* RSTransactionDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTransactionDetailCoordinator.swift; sourceTree = "<group>"; };
+		EDA454E12704E651003C0C18 /* RSTransactionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTransactionDetailViewModel.swift; sourceTree = "<group>"; };
+		EDA454E3270B5274003C0C18 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		EDA454E9270CD184003C0C18 /* CoreDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerTests.swift; sourceTree = "<group>"; };
+		EDA454ED270CD86B003C0C18 /* CoreDataManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerMock.swift; sourceTree = "<group>"; };
+		EDA454EF270CF081003C0C18 /* CurrencyConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterTests.swift; sourceTree = "<group>"; };
+		EDA454F1270CF3EF003C0C18 /* DateConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConverterTests.swift; sourceTree = "<group>"; };
+		EDA454F3270DC402003C0C18 /* RSTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTextView.swift; sourceTree = "<group>"; };
+		EDA454F5270DE506003C0C18 /* RSWalletEditViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletEditViewControllerTests.swift; sourceTree = "<group>"; };
+		EDA454F8270E0004003C0C18 /* RSWalletEditViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletEditViewModelMock.swift; sourceTree = "<group>"; };
+		EDA454FA270E00A6003C0C18 /* RSTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTextFieldTests.swift; sourceTree = "<group>"; };
+		EDA454FC270E0A94003C0C18 /* RSColorThemeCoordiantorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSColorThemeCoordiantorTests.swift; sourceTree = "<group>"; };
+		EDA454FE270E161B003C0C18 /* RSCurrencyCoordiantorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCurrencyCoordiantorTests.swift; sourceTree = "<group>"; };
+		EDA45500270E3B42003C0C18 /* RSCurrencyViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCurrencyViewModelTests.swift; sourceTree = "<group>"; };
+		EDA45502270F0D62003C0C18 /* RSWalletEditCoordiantorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletEditCoordiantorTests.swift; sourceTree = "<group>"; };
+		EDA45504270F29E4003C0C18 /* RSWalletEditViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletEditViewModelTests.swift; sourceTree = "<group>"; };
+		EDA45506270F2AF0003C0C18 /* RSWalletEditViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWalletEditViewControllerMock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA453B226FA8001003C0C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA453CB26FA8005003C0C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA453D626FA8005003C0C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED332CBA271091360092F947 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				ED332CBB271091590092F947 /* RSColorThemeCoordinatorMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		ED332CBF271098040092F947 /* WalletDetailTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED332CD52710D7090092F947 /* Mocks */,
+				ED332CC02710984B0092F947 /* RSWalletDetailCoordinatorTests.swift */,
+				ED332CD32710D6FC0092F947 /* RSWalletDetailViewControllerTests.swift */,
+			);
+			path = WalletDetailTests;
+			sourceTree = "<group>";
+		};
+		ED332CC22710BB480092F947 /* TransactionDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ED332CD02710CBA20092F947 /* Mocks */,
+				ED332CC32710BB5E0092F947 /* RSTransactionDetailCoordinatorTests.swift */,
+				ED332CCE2710CB330092F947 /* RSTransactionDetailViewControllerTests.swift */,
+			);
+			path = TransactionDetailScreen;
+			sourceTree = "<group>";
+		};
+		ED332CC52710BE4A0092F947 /* TransactionListTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED332CC62710BE770092F947 /* RSTransactionListCoordinatorTests.swift */,
+			);
+			path = TransactionListTests;
+			sourceTree = "<group>";
+		};
+		ED332CD02710CBA20092F947 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				ED332CD12710CBC80092F947 /* RSTransactionDetailViewModelMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		ED332CD52710D7090092F947 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				ED332CD62710D7590092F947 /* RSWalletDetailViewModelMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		ED94D9CF270F575600C61306 /* WalletEditTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED94D9D0270F577100C61306 /* Mocks */,
+				EDA454F5270DE506003C0C18 /* RSWalletEditViewControllerTests.swift */,
+				EDA45502270F0D62003C0C18 /* RSWalletEditCoordiantorTests.swift */,
+				EDA45504270F29E4003C0C18 /* RSWalletEditViewModelTests.swift */,
+			);
+			path = WalletEditTests;
+			sourceTree = "<group>";
+		};
+		ED94D9D0270F577100C61306 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454F8270E0004003C0C18 /* RSWalletEditViewModelMock.swift */,
+				EDA45506270F2AF0003C0C18 /* RSWalletEditViewControllerMock.swift */,
+				ED94D9CD270F4FFA00C61306 /* RSWalletEditCoordinatorMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		ED94D9D2270F578900C61306 /* CurrencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454FE270E161B003C0C18 /* RSCurrencyCoordiantorTests.swift */,
+				EDA45500270E3B42003C0C18 /* RSCurrencyViewModelTests.swift */,
+			);
+			path = CurrencyTests;
+			sourceTree = "<group>";
+		};
+		ED94D9D3270F57A700C61306 /* CoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454F7270DFFED003C0C18 /* Mocks */,
+				EDA454E9270CD184003C0C18 /* CoreDataManagerTests.swift */,
+			);
+			path = CoreDataTests;
+			sourceTree = "<group>";
+		};
+		ED94D9D4270F57C500C61306 /* ColorThemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED332CBA271091360092F947 /* Mocks */,
+				EDA454FC270E0A94003C0C18 /* RSColorThemeCoordiantorTests.swift */,
+				ED332CB8271090F70092F947 /* RSColorThemeViewModelTests.swift */,
+			);
+			path = ColorThemeTests;
+			sourceTree = "<group>";
+		};
+		EDA38CE92710EC8C00891122 /* LaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				EDA38CF02710F9A300891122 /* doge.png */,
+			);
+			path = LaunchImage;
+			sourceTree = "<group>";
+		};
+		EDA453AC26FA8001003C0C18 = {
+			isa = PBXGroup;
+			children = (
+				EDA453B726FA8002003C0C18 /* FinanceManager */,
+				EDA453D126FA8005003C0C18 /* FinanceManagerTests */,
+				EDA453DC26FA8005003C0C18 /* FinanceManagerUITests */,
+				EDA453B626FA8002003C0C18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA453B626FA8002003C0C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA453B526FA8002003C0C18 /* FinanceManager.app */,
+				EDA453CE26FA8005003C0C18 /* FinanceManagerTests.xctest */,
+				EDA453D926FA8005003C0C18 /* FinanceManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA453B726FA8002003C0C18 /* FinanceManager */ = {
+			isa = PBXGroup;
+			children = (
+				EDA453B826FA8002003C0C18 /* AppDelegate.swift */,
+				EDA4546826FF65D7003C0C18 /* CoreData */,
+				EDA4543126FCDB0D003C0C18 /* Animations */,
+				EDA4542A26FCD0DE003C0C18 /* CustomElements */,
+				EDA4540B26FB8419003C0C18 /* Extensions */,
+				EDA4542726FC9DB8003C0C18 /* Helpers */,
+				EDA453F326FB23BA003C0C18 /* Model */,
+				EDA453EB26FB1E92003C0C18 /* Screens */,
+				EDA4540E26FB84D1003C0C18 /* Fonts */,
+				EDA38CE92710EC8C00891122 /* LaunchImage */,
+				EDA453C426FA8005003C0C18 /* Assets.xcassets */,
+				EDA453C626FA8005003C0C18 /* LaunchScreen.storyboard */,
+				EDA453C926FA8005003C0C18 /* Info.plist */,
+				EDA453C126FA8002003C0C18 /* FinanceManager.xcdatamodeld */,
+			);
+			path = FinanceManager;
+			sourceTree = "<group>";
+		};
+		EDA453D126FA8005003C0C18 /* FinanceManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED332CC52710BE4A0092F947 /* TransactionListTests */,
+				ED332CC22710BB480092F947 /* TransactionDetailScreen */,
+				ED332CBF271098040092F947 /* WalletDetailTests */,
+				ED94D9D4270F57C500C61306 /* ColorThemeTests */,
+				ED94D9D3270F57A700C61306 /* CoreDataTests */,
+				ED94D9D2270F578900C61306 /* CurrencyTests */,
+				ED94D9CF270F575600C61306 /* WalletEditTests */,
+				EDA453D426FA8005003C0C18 /* Info.plist */,
+				EDA454EF270CF081003C0C18 /* CurrencyConverterTests.swift */,
+				EDA454F1270CF3EF003C0C18 /* DateConverterTests.swift */,
+				EDA454FA270E00A6003C0C18 /* RSTextFieldTests.swift */,
+				ED332CB227107CF00092F947 /* RSSegmentedControlTests.swift */,
+				ED94D9D5270F581C00C61306 /* RSApplicationCoordinatorTests.swift */,
+				ED332CB427108A070092F947 /* RSWalletListCollectionViewCellTests.swift */,
+				ED332CBD271094550092F947 /* RSBackgroundImageTests.swift */,
+				ED332CC82710C0EB0092F947 /* RSCollectionViewHeaderTests.swift */,
+				ED332CCA2710C2A90092F947 /* RSColorThemeCellTests.swift */,
+				ED332CCC2710C6160092F947 /* RSCollectionViewControllerMock.swift */,
+				EDA38CEE2710F0D100891122 /* RSTextViewTests.swift */,
+			);
+			path = FinanceManagerTests;
+			sourceTree = "<group>";
+		};
+		EDA453DC26FA8005003C0C18 /* FinanceManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA453DD26FA8005003C0C18 /* RSSchool_T12_FinanceManagerUITests.swift */,
+				EDA453DF26FA8005003C0C18 /* Info.plist */,
+			);
+			path = FinanceManagerUITests;
+			sourceTree = "<group>";
+		};
+		EDA453EB26FB1E92003C0C18 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EDA453F126FB2154003C0C18 /* RSApplicationCoordinator.swift */,
+				EDA454C3270114B0003C0C18 /* Coordinator */,
+				EDA4540426FB612F003C0C18 /* WalletsList */,
+				EDA454BE27010C49003C0C18 /* WalletDetail */,
+				EDA4541726FB8E16003C0C18 /* WalletEdit */,
+				EDA4543826FD00F5003C0C18 /* ColorTheme */,
+				EDA4544C26FDEEA4003C0C18 /* Currency */,
+				EDA454B22700F767003C0C18 /* TransactionsList */,
+				EDA454D92704CF1E003C0C18 /* TransactionDetail */,
+				EDA454A827009A38003C0C18 /* TransactionEdit */,
+				EDA4540826FB6168003C0C18 /* CollectionViewController */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EDA453F326FB23BA003C0C18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4542326FC8FBD003C0C18 /* RSThemes.swift */,
+				EDA454E3270B5274003C0C18 /* UserDefaults.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDA4540426FB612F003C0C18 /* WalletsList */ = {
+			isa = PBXGroup;
+			children = (
+				EDA453F626FB32ED003C0C18 /* RSWalletListCoordinator.swift */,
+				EDA4540926FB62C5003C0C18 /* RSWalletListVewModel.swift */,
+				EDA4540726FB614C003C0C18 /* CustomCells */,
+			);
+			path = WalletsList;
+			sourceTree = "<group>";
+		};
+		EDA4540726FB614C003C0C18 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4540126FB55A3003C0C18 /* RSWalletListCollectionViewHeader.swift */,
+				EDA4540026FB55A3003C0C18 /* RSWalletListCollectionViewHeader.xib */,
+				EDA453F826FB44D4003C0C18 /* RSWalletListCollectionViewCell.swift */,
+				EDA453F926FB44D4003C0C18 /* RSWalletListCollectionViewCell.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		EDA4540826FB6168003C0C18 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454BD27010803003C0C18 /* CustomHeader */,
+				EDA453EC26FB1ECD003C0C18 /* RSCollectionViewController.swift */,
+				EDA453ED26FB1ECD003C0C18 /* RSCollectionViewController.xib */,
+			);
+			path = CollectionViewController;
+			sourceTree = "<group>";
+		};
+		EDA4540B26FB8419003C0C18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4540C26FB8436003C0C18 /* UIFonts+CustomFonts.swift */,
+				EDA4541526FB8847003C0C18 /* UIColor+DefaultColors.swift */,
+				EDA454D527048AC3003C0C18 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EDA4540E26FB84D1003C0C18 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4541126FB84E2003C0C18 /* Montserrat-Bold.ttf */,
+				EDA4540F26FB84E1003C0C18 /* Montserrat-Medium.ttf */,
+				EDA4541026FB84E2003C0C18 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EDA4541726FB8E16003C0C18 /* WalletEdit */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4541F26FB9D8D003C0C18 /* RSWalletEditCoordinator.swift */,
+				EDA4542126FB9E73003C0C18 /* RSWalletEditViewModel.swift */,
+				EDA4541A26FB8E41003C0C18 /* ViewController */,
+			);
+			path = WalletEdit;
+			sourceTree = "<group>";
+		};
+		EDA4541A26FB8E41003C0C18 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4541B26FB8E7F003C0C18 /* RSWalletEditViewController.swift */,
+				EDA4541C26FB8E7F003C0C18 /* RSWalletEditViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EDA4542726FC9DB8003C0C18 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4542826FC9DCC003C0C18 /* CurrencyConverter.swift */,
+				EDA4545A26FE612F003C0C18 /* DateConverter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EDA4542A26FCD0DE003C0C18 /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4542B26FCD117003C0C18 /* RSViewWithGradient.swift */,
+				EDA4543426FCF279003C0C18 /* RSButtonWithGradient.swift */,
+				EDA4543626FCF966003C0C18 /* RSTextField.swift */,
+				EDA454F3270DC402003C0C18 /* RSTextView.swift */,
+				EDA454CB27012EAF003C0C18 /* RSIconButton.swift */,
+				EDA454CD27013342003C0C18 /* RSIconDeleteButton.swift */,
+				EDA454D127027A71003C0C18 /* RSImageViewWithBlackBorder.swift */,
+				EDA454D327034F9E003C0C18 /* RSSegmentedControl.swift */,
+				EDA454D727048B62003C0C18 /* RSBackgroundImage.swift */,
+			);
+			path = CustomElements;
+			sourceTree = "<group>";
+		};
+		EDA4543126FCDB0D003C0C18 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4543226FCDB26003C0C18 /* RSViewControllerAnimation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		EDA4543826FD00F5003C0C18 /* ColorTheme */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4543B26FD0131003C0C18 /* RSColorThemeCoordinator.swift */,
+				EDA4544126FD0258003C0C18 /* RSColorThemeViewModel.swift */,
+				EDA4544326FD0762003C0C18 /* CustomCells */,
+			);
+			path = ColorTheme;
+			sourceTree = "<group>";
+		};
+		EDA4544326FD0762003C0C18 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4544426FD078A003C0C18 /* RSColorThemeCell.swift */,
+				EDA4544526FD078A003C0C18 /* RSColorThemeCell.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		EDA4544C26FDEEA4003C0C18 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4544D26FDEEA4003C0C18 /* RSCurrencyCoordiantor.swift */,
+				EDA4545326FDEEA4003C0C18 /* RSCurrencyViewModel.swift */,
+				EDA4544E26FDEEA4003C0C18 /* CustomCells */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		EDA4544E26FDEEA4003C0C18 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4544F26FDEEA4003C0C18 /* RSCurrencyCollectionViewCell.swift */,
+				EDA4545126FDEEA4003C0C18 /* RSCurrencyCollectionViewCell.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		EDA4546826FF65D7003C0C18 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4546926FF65D7003C0C18 /* Model */,
+				EDA4549E26FF99DA003C0C18 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		EDA4546926FF65D7003C0C18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454A426FFC381003C0C18 /* Wallet+CoreDataClass.swift */,
+				EDA454A526FFC381003C0C18 /* Wallet+CoreDataProperties.swift */,
+				EDA4549626FF991E003C0C18 /* Transaction+CoreDataClass.swift */,
+				EDA4549726FF991E003C0C18 /* Transaction+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDA454A827009A38003C0C18 /* TransactionEdit */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454AA27009A38003C0C18 /* RSTransactionEditCoordiantor.swift */,
+				EDA454A927009A38003C0C18 /* RSTransactionEditViewModel.swift */,
+				EDA454AB27009A38003C0C18 /* ViewController */,
+			);
+			path = TransactionEdit;
+			sourceTree = "<group>";
+		};
+		EDA454AB27009A38003C0C18 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454AD27009A38003C0C18 /* RSTransactionEditViewController.swift */,
+				EDA454AC27009A38003C0C18 /* RSTransactionEditViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EDA454B22700F767003C0C18 /* TransactionsList */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454B32700F84A003C0C18 /* RSTransactionListCoordinator.swift */,
+				EDA454BB2701054A003C0C18 /* RSTransactionListViewModel.swift */,
+				EDA454B62700F868003C0C18 /* CustomCells */,
+			);
+			path = TransactionsList;
+			sourceTree = "<group>";
+		};
+		EDA454B62700F868003C0C18 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454B7270100BB003C0C18 /* RSTransactionCollectionViewCell.xib */,
+				EDA454B8270100BB003C0C18 /* RSTransactionCollectionViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		EDA454BD27010803003C0C18 /* CustomHeader */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4545226FDEEA4003C0C18 /* RSCollectionViewHeader.swift */,
+				EDA4545026FDEEA4003C0C18 /* RSCollectionViewHeader.xib */,
+			);
+			path = CustomHeader;
+			sourceTree = "<group>";
+		};
+		EDA454BE27010C49003C0C18 /* WalletDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454BF27010D41003C0C18 /* RSWalletDetailCoordinator.swift */,
+				EDA454C127010E3F003C0C18 /* RSWalletDetailViewModel.swift */,
+				EDA454CA270119D4003C0C18 /* ViewController */,
+			);
+			path = WalletDetail;
+			sourceTree = "<group>";
+		};
+		EDA454C3270114B0003C0C18 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454C4270114CA003C0C18 /* RSCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		EDA454CA270119D4003C0C18 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454C6270119D0003C0C18 /* RSWalletDetailViewController.swift */,
+				EDA454C7270119D0003C0C18 /* RSWalletDetailViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EDA454D92704CF1E003C0C18 /* TransactionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454DF2704E63F003C0C18 /* RSTransactionDetailCoordinator.swift */,
+				EDA454E12704E651003C0C18 /* RSTransactionDetailViewModel.swift */,
+				EDA454DA2704CF2D003C0C18 /* ViewController */,
+			);
+			path = TransactionDetail;
+			sourceTree = "<group>";
+		};
+		EDA454DA2704CF2D003C0C18 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454DB2704CF54003C0C18 /* RSTransactionDetailViewController.swift */,
+				EDA454DC2704CF54003C0C18 /* RSTransactionDetailViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EDA454F7270DFFED003C0C18 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA454ED270CD86B003C0C18 /* CoreDataManagerMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA453B426FA8001003C0C18 /* FinanceManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA453E226FA8005003C0C18 /* Build configuration list for PBXNativeTarget "FinanceManager" */;
+			buildPhases = (
+				EDA453B126FA8001003C0C18 /* Sources */,
+				EDA453B226FA8001003C0C18 /* Frameworks */,
+				EDA453B326FA8001003C0C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceManager;
+			productName = RSSchool_T12_FinanceManager;
+			productReference = EDA453B526FA8002003C0C18 /* FinanceManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA453CD26FA8005003C0C18 /* FinanceManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA453E526FA8005003C0C18 /* Build configuration list for PBXNativeTarget "FinanceManagerTests" */;
+			buildPhases = (
+				EDA453CA26FA8005003C0C18 /* Sources */,
+				EDA453CB26FA8005003C0C18 /* Frameworks */,
+				EDA453CC26FA8005003C0C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA453D026FA8005003C0C18 /* PBXTargetDependency */,
+			);
+			name = FinanceManagerTests;
+			productName = RSSchool_T12_FinanceManagerTests;
+			productReference = EDA453CE26FA8005003C0C18 /* FinanceManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDA453D826FA8005003C0C18 /* FinanceManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA453E826FA8005003C0C18 /* Build configuration list for PBXNativeTarget "FinanceManagerUITests" */;
+			buildPhases = (
+				EDA453D526FA8005003C0C18 /* Sources */,
+				EDA453D626FA8005003C0C18 /* Frameworks */,
+				EDA453D726FA8005003C0C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA453DB26FA8005003C0C18 /* PBXTargetDependency */,
+			);
+			name = FinanceManagerUITests;
+			productName = RSSchool_T12_FinanceManagerUITests;
+			productReference = EDA453D926FA8005003C0C18 /* FinanceManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA453AD26FA8001003C0C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EDA453B426FA8001003C0C18 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EDA453CD26FA8005003C0C18 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EDA453B426FA8001003C0C18;
+					};
+					EDA453D826FA8005003C0C18 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EDA453B426FA8001003C0C18;
+					};
+				};
+			};
+			buildConfigurationList = EDA453B026FA8001003C0C18 /* Build configuration list for PBXProject "FinanceManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA453AC26FA8001003C0C18;
+			productRefGroup = EDA453B626FA8002003C0C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA453B426FA8001003C0C18 /* FinanceManager */,
+				EDA453CD26FA8005003C0C18 /* FinanceManagerTests */,
+				EDA453D826FA8005003C0C18 /* FinanceManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA453B326FA8001003C0C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA454B9270100BB003C0C18 /* RSTransactionCollectionViewCell.xib in Resources */,
+				EDA4545626FDEEA5003C0C18 /* RSCollectionViewHeader.xib in Resources */,
+				EDA453FB26FB44D4003C0C18 /* RSWalletListCollectionViewCell.xib in Resources */,
+				EDA454DE2704CF55003C0C18 /* RSTransactionDetailViewController.xib in Resources */,
+				EDA453EF26FB1ECD003C0C18 /* RSCollectionViewController.xib in Resources */,
+				EDA453C826FA8005003C0C18 /* LaunchScreen.storyboard in Resources */,
+				EDA4541326FB84E2003C0C18 /* Montserrat-SemiBold.ttf in Resources */,
+				EDA4541426FB84E2003C0C18 /* Montserrat-Bold.ttf in Resources */,
+				EDA4544726FD078A003C0C18 /* RSColorThemeCell.xib in Resources */,
+				EDA454C9270119D0003C0C18 /* RSWalletDetailViewController.xib in Resources */,
+				EDA453C526FA8005003C0C18 /* Assets.xcassets in Resources */,
+				EDA454B027009A38003C0C18 /* RSTransactionEditViewController.xib in Resources */,
+				EDA38CF12710F9A300891122 /* doge.png in Resources */,
+				EDA4541E26FB8E7F003C0C18 /* RSWalletEditViewController.xib in Resources */,
+				EDA4545726FDEEA5003C0C18 /* RSCurrencyCollectionViewCell.xib in Resources */,
+				EDA4541226FB84E2003C0C18 /* Montserrat-Medium.ttf in Resources */,
+				EDA4540226FB55A3003C0C18 /* RSWalletListCollectionViewHeader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA453CC26FA8005003C0C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA453D726FA8005003C0C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA453B126FA8001003C0C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA4549B26FF991E003C0C18 /* Transaction+CoreDataProperties.swift in Sources */,
+				EDA4545826FDEEA5003C0C18 /* RSCollectionViewHeader.swift in Sources */,
+				EDA454C227010E3F003C0C18 /* RSWalletDetailViewModel.swift in Sources */,
+				EDA4543526FCF279003C0C18 /* RSButtonWithGradient.swift in Sources */,
+				EDA454AE27009A38003C0C18 /* RSTransactionEditViewModel.swift in Sources */,
+				EDA4549A26FF991E003C0C18 /* Transaction+CoreDataClass.swift in Sources */,
+				EDA454A726FFC381003C0C18 /* Wallet+CoreDataProperties.swift in Sources */,
+				EDA453C326FA8002003C0C18 /* FinanceManager.xcdatamodeld in Sources */,
+				EDA4540A26FB62C5003C0C18 /* RSWalletListVewModel.swift in Sources */,
+				EDA4549F26FF99DA003C0C18 /* CoreDataManager.swift in Sources */,
+				EDA454BA270100BB003C0C18 /* RSTransactionCollectionViewCell.swift in Sources */,
+				EDA4542026FB9D8D003C0C18 /* RSWalletEditCoordinator.swift in Sources */,
+				EDA454DD2704CF55003C0C18 /* RSTransactionDetailViewController.swift in Sources */,
+				EDA454A626FFC381003C0C18 /* Wallet+CoreDataClass.swift in Sources */,
+				EDA454C5270114CA003C0C18 /* RSCoordinator.swift in Sources */,
+				EDA454D827048B62003C0C18 /* RSBackgroundImage.swift in Sources */,
+				EDA4545526FDEEA5003C0C18 /* RSCurrencyCollectionViewCell.swift in Sources */,
+				EDA453F226FB2154003C0C18 /* RSApplicationCoordinator.swift in Sources */,
+				EDA454AF27009A38003C0C18 /* RSTransactionEditCoordiantor.swift in Sources */,
+				EDA454C027010D41003C0C18 /* RSWalletDetailCoordinator.swift in Sources */,
+				EDA453FA26FB44D4003C0C18 /* RSWalletListCollectionViewCell.swift in Sources */,
+				EDA454CE27013342003C0C18 /* RSIconDeleteButton.swift in Sources */,
+				EDA454D227027A71003C0C18 /* RSImageViewWithBlackBorder.swift in Sources */,
+				EDA454D627048AC3003C0C18 /* UIView+Extensions.swift in Sources */,
+				EDA4540326FB55A3003C0C18 /* RSWalletListCollectionViewHeader.swift in Sources */,
+				EDA454B42700F84A003C0C18 /* RSTransactionListCoordinator.swift in Sources */,
+				EDA454F4270DC402003C0C18 /* RSTextView.swift in Sources */,
+				EDA4543C26FD0131003C0C18 /* RSColorThemeCoordinator.swift in Sources */,
+				EDA4544226FD0258003C0C18 /* RSColorThemeViewModel.swift in Sources */,
+				EDA453EE26FB1ECD003C0C18 /* RSCollectionViewController.swift in Sources */,
+				EDA4542C26FCD117003C0C18 /* RSViewWithGradient.swift in Sources */,
+				EDA454B127009A38003C0C18 /* RSTransactionEditViewController.swift in Sources */,
+				EDA454C8270119D0003C0C18 /* RSWalletDetailViewController.swift in Sources */,
+				EDA4545B26FE612F003C0C18 /* DateConverter.swift in Sources */,
+				EDA4542926FC9DCC003C0C18 /* CurrencyConverter.swift in Sources */,
+				EDA453B926FA8002003C0C18 /* AppDelegate.swift in Sources */,
+				EDA4545426FDEEA5003C0C18 /* RSCurrencyCoordiantor.swift in Sources */,
+				EDA454CC27012EAF003C0C18 /* RSIconButton.swift in Sources */,
+				EDA4541626FB8847003C0C18 /* UIColor+DefaultColors.swift in Sources */,
+				EDA4541D26FB8E7F003C0C18 /* RSWalletEditViewController.swift in Sources */,
+				EDA454D427034F9E003C0C18 /* RSSegmentedControl.swift in Sources */,
+				EDA454E02704E63F003C0C18 /* RSTransactionDetailCoordinator.swift in Sources */,
+				EDA4542426FC8FBD003C0C18 /* RSThemes.swift in Sources */,
+				EDA453F726FB32ED003C0C18 /* RSWalletListCoordinator.swift in Sources */,
+				EDA4540D26FB8436003C0C18 /* UIFonts+CustomFonts.swift in Sources */,
+				EDA454E22704E651003C0C18 /* RSTransactionDetailViewModel.swift in Sources */,
+				EDA4543326FCDB26003C0C18 /* RSViewControllerAnimation.swift in Sources */,
+				EDA4545926FDEEA5003C0C18 /* RSCurrencyViewModel.swift in Sources */,
+				EDA4543726FCF966003C0C18 /* RSTextField.swift in Sources */,
+				EDA454BC2701054A003C0C18 /* RSTransactionListViewModel.swift in Sources */,
+				EDA454E4270B5274003C0C18 /* UserDefaults.swift in Sources */,
+				EDA4544626FD078A003C0C18 /* RSColorThemeCell.swift in Sources */,
+				EDA4542226FB9E73003C0C18 /* RSWalletEditViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA453CA26FA8005003C0C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA454FD270E0A94003C0C18 /* RSColorThemeCoordiantorTests.swift in Sources */,
+				ED332CBE271094550092F947 /* RSBackgroundImageTests.swift in Sources */,
+				ED332CB327107CF00092F947 /* RSSegmentedControlTests.swift in Sources */,
+				EDA454F6270DE506003C0C18 /* RSWalletEditViewControllerTests.swift in Sources */,
+				ED332CC92710C0EB0092F947 /* RSCollectionViewHeaderTests.swift in Sources */,
+				ED332CD22710CBC80092F947 /* RSTransactionDetailViewModelMock.swift in Sources */,
+				EDA454EA270CD186003C0C18 /* CoreDataManagerTests.swift in Sources */,
+				EDA454FB270E00A6003C0C18 /* RSTextFieldTests.swift in Sources */,
+				EDA45505270F29E5003C0C18 /* RSWalletEditViewModelTests.swift in Sources */,
+				EDA45503270F0D63003C0C18 /* RSWalletEditCoordiantorTests.swift in Sources */,
+				EDA454FF270E161B003C0C18 /* RSCurrencyCoordiantorTests.swift in Sources */,
+				ED94D9CE270F4FFA00C61306 /* RSWalletEditCoordinatorMock.swift in Sources */,
+				EDA454EE270CD86B003C0C18 /* CoreDataManagerMock.swift in Sources */,
+				ED332CD72710D7590092F947 /* RSWalletDetailViewModelMock.swift in Sources */,
+				ED332CCF2710CB330092F947 /* RSTransactionDetailViewControllerTests.swift in Sources */,
+				EDA38CEF2710F0D100891122 /* RSTextViewTests.swift in Sources */,
+				ED332CC42710BB5E0092F947 /* RSTransactionDetailCoordinatorTests.swift in Sources */,
+				EDA45507270F2AF0003C0C18 /* RSWalletEditViewControllerMock.swift in Sources */,
+				EDA454F0270CF081003C0C18 /* CurrencyConverterTests.swift in Sources */,
+				ED332CD42710D6FC0092F947 /* RSWalletDetailViewControllerTests.swift in Sources */,
+				EDA454F2270CF3EF003C0C18 /* DateConverterTests.swift in Sources */,
+				EDA454F9270E0004003C0C18 /* RSWalletEditViewModelMock.swift in Sources */,
+				ED94D9D6270F581C00C61306 /* RSApplicationCoordinatorTests.swift in Sources */,
+				ED332CB9271090F70092F947 /* RSColorThemeViewModelTests.swift in Sources */,
+				ED332CB527108A070092F947 /* RSWalletListCollectionViewCellTests.swift in Sources */,
+				EDA45501270E3B43003C0C18 /* RSCurrencyViewModelTests.swift in Sources */,
+				ED332CCD2710C6160092F947 /* RSCollectionViewControllerMock.swift in Sources */,
+				ED332CCB2710C2A90092F947 /* RSColorThemeCellTests.swift in Sources */,
+				ED332CBC271091590092F947 /* RSColorThemeCoordinatorMock.swift in Sources */,
+				ED332CC12710984B0092F947 /* RSWalletDetailCoordinatorTests.swift in Sources */,
+				ED332CC72710BE770092F947 /* RSTransactionListCoordinatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA453D526FA8005003C0C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA453DE26FA8005003C0C18 /* RSSchool_T12_FinanceManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA453D026FA8005003C0C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA453B426FA8001003C0C18 /* FinanceManager */;
+			targetProxy = EDA453CF26FA8005003C0C18 /* PBXContainerItemProxy */;
+		};
+		EDA453DB26FA8005003C0C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA453B426FA8001003C0C18 /* FinanceManager */;
+			targetProxy = EDA453DA26FA8005003C0C18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA453C626FA8005003C0C18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA453C726FA8005003C0C18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA453E026FA8005003C0C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDA453E126FA8005003C0C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA453E326FA8005003C0C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69YJ6ZVKYK;
+				INFOPLIST_FILE = FinanceManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FinanceManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EDA453E426FA8005003C0C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69YJ6ZVKYK;
+				INFOPLIST_FILE = FinanceManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FinanceManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EDA453E626FA8005003C0C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69YJ6ZVKYK;
+				INFOPLIST_FILE = FinanceManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FinanceManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinanceManager.app/FinanceManager";
+			};
+			name = Debug;
+		};
+		EDA453E726FA8005003C0C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69YJ6ZVKYK;
+				INFOPLIST_FILE = FinanceManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FinanceManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinanceManager.app/FinanceManager";
+			};
+			name = Release;
+		};
+		EDA453E926FA8005003C0C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69YJ6ZVKYK;
+				INFOPLIST_FILE = FinanceManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FinanceManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinanceManager;
+			};
+			name = Debug;
+		};
+		EDA453EA26FA8005003C0C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69YJ6ZVKYK;
+				INFOPLIST_FILE = FinanceManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FinanceManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinanceManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA453B026FA8001003C0C18 /* Build configuration list for PBXProject "FinanceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA453E026FA8005003C0C18 /* Debug */,
+				EDA453E126FA8005003C0C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA453E226FA8005003C0C18 /* Build configuration list for PBXNativeTarget "FinanceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA453E326FA8005003C0C18 /* Debug */,
+				EDA453E426FA8005003C0C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA453E526FA8005003C0C18 /* Build configuration list for PBXNativeTarget "FinanceManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA453E626FA8005003C0C18 /* Debug */,
+				EDA453E726FA8005003C0C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA453E826FA8005003C0C18 /* Build configuration list for PBXNativeTarget "FinanceManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA453E926FA8005003C0C18 /* Debug */,
+				EDA453EA26FA8005003C0C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDA453C126FA8002003C0C18 /* FinanceManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDA453C226FA8002003C0C18 /* RSSchool_T12_FinanceManager.xcdatamodel */,
+			);
+			currentVersion = EDA453C226FA8002003C0C18 /* RSSchool_T12_FinanceManager.xcdatamodel */;
+			path = FinanceManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDA453AD26FA8001003C0C18 /* Project object */;
+}

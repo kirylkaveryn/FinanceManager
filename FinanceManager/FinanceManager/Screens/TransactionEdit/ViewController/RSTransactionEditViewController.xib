@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RSTransactionEditViewController" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="e1d-Ca-GpE" id="jvs-Bc-pa6"/>
+                <outlet property="changeField" destination="Agu-Kg-WlW" id="Hi3-UD-RbP"/>
+                <outlet property="controllerTitleLabel" destination="kEU-m4-CzG" id="u33-Zt-6k7"/>
+                <outlet property="headerTitile" destination="kEU-m4-CzG" id="6kA-6z-BGN"/>
+                <outlet property="noteField" destination="E4a-VQ-3mx" id="K1n-FJ-JOT"/>
+                <outlet property="scrollView" destination="ak4-7A-cxM" id="ps3-jU-DHO"/>
+                <outlet property="segmentedControl" destination="d6S-h5-mB5" id="qfv-we-8B2"/>
+                <outlet property="titleField" destination="uZI-Ub-wKy" id="CjX-H4-wc6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="jh4-E8-Tb3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ak4-7A-cxM">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t5t-0J-vOB" userLabel="EditView" customClass="RSViewWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                            <rect key="frame" x="17" y="40" width="380" height="75"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1d-Ca-GpE" userLabel="backButton" customClass="RSIconButton" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                                    <rect key="frame" x="30" y="17.5" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="3MH-kd-baM"/>
+                                        <constraint firstAttribute="width" constant="40" id="XAp-df-FfR"/>
+                                    </constraints>
+                                    <state key="normal" image="back"/>
+                                    <connections>
+                                        <action selector="backButtonPressed" destination="-1" eventType="touchUpInside" id="Y7K-uF-kQI"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEU-m4-CzG">
+                                    <rect key="frame" x="90" y="23" width="131.5" height="29.5"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstItem="kEU-m4-CzG" firstAttribute="centerY" secondItem="t5t-0J-vOB" secondAttribute="centerY" id="Fdo-4w-UaX"/>
+                                <constraint firstItem="kEU-m4-CzG" firstAttribute="leading" secondItem="e1d-Ca-GpE" secondAttribute="trailing" constant="20" id="L15-0z-Msy"/>
+                                <constraint firstItem="e1d-Ca-GpE" firstAttribute="leading" secondItem="t5t-0J-vOB" secondAttribute="leading" constant="30" id="OPt-8H-LLR"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75" id="Uyy-I5-1mT"/>
+                                <constraint firstItem="e1d-Ca-GpE" firstAttribute="centerY" secondItem="t5t-0J-vOB" secondAttribute="centerY" id="VcU-Ui-eab"/>
+                                <constraint firstAttribute="height" constant="75" id="c6K-Ju-tse"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t4C-y1-PUZ" userLabel="Title" customClass="RSViewWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                            <rect key="frame" x="17" y="155" width="380" height="169.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MS-Mh-ZpI">
+                                    <rect key="frame" x="20" y="30" width="53.5" height="29.5"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" placeholder="Start here..." adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uZI-Ub-wKy" customClass="RSTextField" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                                    <rect key="frame" x="20" y="79.5" width="340" height="70"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="70" id="qoG-Vy-KoQ"/>
+                                    </constraints>
+                                    <color key="textColor" name="Color"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="24"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <action selector="textFieldDidChange" destination="-1" eventType="editingDidEnd" id="NLR-i5-hwa"/>
+                                    </connections>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstItem="0MS-Mh-ZpI" firstAttribute="top" secondItem="t4C-y1-PUZ" secondAttribute="top" constant="30" id="QfD-cB-w2v"/>
+                                <constraint firstItem="uZI-Ub-wKy" firstAttribute="top" secondItem="0MS-Mh-ZpI" secondAttribute="bottom" constant="20" id="Rva-B2-64J"/>
+                                <constraint firstAttribute="bottom" secondItem="uZI-Ub-wKy" secondAttribute="bottom" constant="20" id="Uvk-Du-mIq"/>
+                                <constraint firstItem="0MS-Mh-ZpI" firstAttribute="leading" secondItem="t4C-y1-PUZ" secondAttribute="leading" constant="20" id="eZw-zE-5ks"/>
+                                <constraint firstAttribute="trailing" secondItem="uZI-Ub-wKy" secondAttribute="trailing" constant="20" id="lHs-9m-M2r"/>
+                                <constraint firstItem="uZI-Ub-wKy" firstAttribute="leading" secondItem="t4C-y1-PUZ" secondAttribute="leading" constant="20" id="lR6-9A-IRj"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VTK-Mk-Vhm" userLabel="Change" customClass="RSViewWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                            <rect key="frame" x="17" y="344.5" width="380" height="194.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9G-9y-JBV">
+                                    <rect key="frame" x="20" y="30" width="97" height="29.5"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" placeholder="Type here..." adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Agu-Kg-WlW" customClass="RSTextField" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                                    <rect key="frame" x="20" y="104.5" width="340" height="70"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="70" id="fqH-zi-D5t"/>
+                                    </constraints>
+                                    <color key="textColor" name="Color"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="24"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    <connections>
+                                        <action selector="textFieldDidChange" destination="-1" eventType="editingDidEnd" id="Pz6-YX-H4v"/>
+                                    </connections>
+                                </textField>
+                                <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="d6S-h5-mB5" customClass="RSSegmentedControl" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                                    <rect key="frame" x="183" y="30" width="177" height="32"/>
+                                    <segments>
+                                        <segment title="Outcome"/>
+                                        <segment title="Income"/>
+                                    </segments>
+                                    <color key="selectedSegmentTintColor" red="0.99995940920000004" green="0.99993973970000005" blue="0.98363274339999995" alpha="0.30180146678394038" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="segmentedControlAction:" destination="-1" eventType="valueChanged" id="N8d-5c-DAG"/>
+                                    </connections>
+                                </segmentedControl>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="d6S-h5-mB5" secondAttribute="trailing" constant="20" id="G9t-QF-FHe"/>
+                                <constraint firstItem="z9G-9y-JBV" firstAttribute="leading" secondItem="VTK-Mk-Vhm" secondAttribute="leading" constant="20" id="KYf-qa-VMV"/>
+                                <constraint firstItem="Agu-Kg-WlW" firstAttribute="top" secondItem="z9G-9y-JBV" secondAttribute="bottom" constant="45" id="N0b-Pw-tEF"/>
+                                <constraint firstAttribute="bottom" secondItem="Agu-Kg-WlW" secondAttribute="bottom" constant="20" id="WQU-X3-Wb5"/>
+                                <constraint firstItem="d6S-h5-mB5" firstAttribute="centerY" secondItem="z9G-9y-JBV" secondAttribute="centerY" id="aAe-HW-wRA"/>
+                                <constraint firstAttribute="trailing" secondItem="Agu-Kg-WlW" secondAttribute="trailing" constant="20" id="d40-mT-bMt"/>
+                                <constraint firstItem="Agu-Kg-WlW" firstAttribute="leading" secondItem="VTK-Mk-Vhm" secondAttribute="leading" constant="20" id="gSa-u7-uqj"/>
+                                <constraint firstItem="z9G-9y-JBV" firstAttribute="top" secondItem="VTK-Mk-Vhm" secondAttribute="top" constant="30" id="gd9-Jc-9gF"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hMf-mR-dys" userLabel="Note" customClass="RSViewWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                            <rect key="frame" x="17" y="559" width="380" height="309.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bx-iy-9R7">
+                                    <rect key="frame" x="20" y="30" width="60" height="29.5"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" contentInsetAdjustmentBehavior="always" text="Start here..." translatesAutoresizingMaskIntoConstraints="NO" id="E4a-VQ-3mx" customClass="RSTextView" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                                    <rect key="frame" x="20" y="79.5" width="340" height="200"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="750" constant="200" id="S36-ek-2rU"/>
+                                    </constraints>
+                                    <inset key="scrollIndicatorInsets" minX="15" minY="15" maxX="15" maxY="15"/>
+                                    <color key="textColor" red="0.078431867059999993" green="0.078409679230000001" blue="0.074352644379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="24"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstItem="2bx-iy-9R7" firstAttribute="leading" secondItem="hMf-mR-dys" secondAttribute="leading" constant="20" id="0y2-Nl-diI"/>
+                                <constraint firstItem="E4a-VQ-3mx" firstAttribute="top" secondItem="2bx-iy-9R7" secondAttribute="bottom" constant="20" id="B5h-MS-19d"/>
+                                <constraint firstItem="2bx-iy-9R7" firstAttribute="top" secondItem="hMf-mR-dys" secondAttribute="top" constant="30" id="DzG-Pv-SAC"/>
+                                <constraint firstItem="E4a-VQ-3mx" firstAttribute="leading" secondItem="hMf-mR-dys" secondAttribute="leading" constant="20" id="G3R-Hq-wLA"/>
+                                <constraint firstAttribute="bottom" secondItem="E4a-VQ-3mx" secondAttribute="bottom" constant="30" id="jhP-fJ-HLB"/>
+                                <constraint firstAttribute="trailing" secondItem="E4a-VQ-3mx" secondAttribute="trailing" constant="20" id="lRS-1w-qzm"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="t5t-0J-vOB" firstAttribute="leading" secondItem="hYx-IL-lPU" secondAttribute="leading" constant="17" id="3k3-3Y-DSt"/>
+                        <constraint firstItem="hYx-IL-lPU" firstAttribute="trailing" secondItem="t5t-0J-vOB" secondAttribute="trailing" constant="17" id="BsD-h4-YeY"/>
+                        <constraint firstItem="VTK-Mk-Vhm" firstAttribute="leading" secondItem="hYx-IL-lPU" secondAttribute="leading" constant="17" id="C4g-1Q-Eg2"/>
+                        <constraint firstAttribute="bottom" secondItem="hMf-mR-dys" secondAttribute="bottom" priority="748" id="GHT-tm-75X"/>
+                        <constraint firstItem="hYx-IL-lPU" firstAttribute="trailing" secondItem="t4C-y1-PUZ" secondAttribute="trailing" constant="17" id="ICD-Hi-8kg"/>
+                        <constraint firstItem="hMf-mR-dys" firstAttribute="leading" secondItem="hYx-IL-lPU" secondAttribute="leading" constant="17" id="JTB-FM-IL7"/>
+                        <constraint firstItem="hYx-IL-lPU" firstAttribute="trailing" secondItem="hMf-mR-dys" secondAttribute="trailing" constant="17" id="RkY-qe-2Ao"/>
+                        <constraint firstItem="t5t-0J-vOB" firstAttribute="centerX" secondItem="CgD-h3-4Gb" secondAttribute="centerX" id="VG9-LZ-4dH"/>
+                        <constraint firstItem="t5t-0J-vOB" firstAttribute="top" secondItem="CgD-h3-4Gb" secondAttribute="top" constant="40" id="ZUp-MH-GEC"/>
+                        <constraint firstItem="t4C-y1-PUZ" firstAttribute="top" secondItem="t5t-0J-vOB" secondAttribute="bottom" constant="40" id="e53-1g-TQr"/>
+                        <constraint firstItem="VTK-Mk-Vhm" firstAttribute="top" secondItem="t4C-y1-PUZ" secondAttribute="bottom" constant="20" id="g7K-xs-nvS"/>
+                        <constraint firstItem="t4C-y1-PUZ" firstAttribute="leading" secondItem="hYx-IL-lPU" secondAttribute="leading" constant="17" id="pck-RO-GfD"/>
+                        <constraint firstItem="hYx-IL-lPU" firstAttribute="trailing" secondItem="VTK-Mk-Vhm" secondAttribute="trailing" constant="17" id="pen-Ao-uKk"/>
+                        <constraint firstItem="hMf-mR-dys" firstAttribute="top" secondItem="VTK-Mk-Vhm" secondAttribute="bottom" constant="20" id="q14-Bq-Uf7"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="CgD-h3-4Gb"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="hYx-IL-lPU"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ak4-7A-cxM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="37n-L3-Hyx"/>
+                <constraint firstAttribute="bottom" secondItem="ak4-7A-cxM" secondAttribute="bottom" priority="750" id="3UG-Ds-I6v"/>
+                <constraint firstItem="ak4-7A-cxM" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="BDA-Nb-VmD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ak4-7A-cxM" secondAttribute="trailing" id="H8Y-mC-RwX"/>
+                <constraint firstItem="ak4-7A-cxM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KFQ-Jw-Lo1"/>
+                <constraint firstItem="ak4-7A-cxM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="m8z-Qu-ajV"/>
+            </constraints>
+            <point key="canvasLocation" x="-62.318840579710148" y="84.375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="40" height="40"/>
+        <namedColor name="Color">
+            <color red="0.078000001609325409" green="0.078000001609325409" blue="0.074000000953674316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

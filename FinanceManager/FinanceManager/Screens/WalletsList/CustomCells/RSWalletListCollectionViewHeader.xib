@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RSWalletListCollectionViewHeader" customModule="FinanceManager" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RSWalletListCollectionViewHeader" id="U6b-Vx-4bR" customClass="RSWalletListCollectionViewHeader" customModule="FinanceManager" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="173"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNW-bb-Jkj" customClass="RSViewWithGradient" customModule="FinanceManager" customModuleProvider="target">
+                    <rect key="frame" x="17" y="40" width="331" height="133"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wallets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvz-qa-sxn">
+                            <rect key="frame" x="30" y="52" width="92.5" height="29.5"/>
+                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="24"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XjN-Fc-kOB" customClass="RSIconButton" customModule="FinanceManager" customModuleProvider="target">
+                            <rect key="frame" x="261" y="46.5" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="LoM-Dt-FPN"/>
+                                <constraint firstAttribute="height" constant="40" id="ulZ-4d-hRe"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <state key="normal">
+                                <imageReference key="image" image="add" symbolScale="large" renderingMode="template"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="40" scale="default" weight="light"/>
+                            </state>
+                            <connections>
+                                <action selector="newWalletButtonPressed:" destination="-1" eventType="touchUpInside" id="wmw-EW-iFy"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="dvz-qa-sxn" firstAttribute="centerY" secondItem="RNW-bb-Jkj" secondAttribute="centerY" id="E0z-49-aQj"/>
+                        <constraint firstItem="XjN-Fc-kOB" firstAttribute="centerY" secondItem="RNW-bb-Jkj" secondAttribute="centerY" id="Kmb-4l-L27"/>
+                        <constraint firstItem="dvz-qa-sxn" firstAttribute="leading" secondItem="RNW-bb-Jkj" secondAttribute="leading" constant="30" id="bUh-xW-flj"/>
+                        <constraint firstAttribute="trailing" secondItem="XjN-Fc-kOB" secondAttribute="trailing" constant="30" id="zqQ-V8-sht"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="RNW-bb-Jkj" secondAttribute="trailing" constant="17" id="6ew-Be-IB3"/>
+                <constraint firstItem="RNW-bb-Jkj" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="40" id="Gnz-3F-mrW"/>
+                <constraint firstItem="RNW-bb-Jkj" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="17" id="YKa-Hf-217"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="RNW-bb-Jkj" secondAttribute="bottom" id="sU8-mF-dWR"/>
+            </constraints>
+            <point key="canvasLocation" x="526.81159420289862" y="94.754464285714278"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="add" width="40" height="40"/>
+    </resources>
+</document>

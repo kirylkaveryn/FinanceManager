@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RSColorThemeCell" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="299" height="159"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="299" height="159"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ho-Lh-epY" customClass="RSViewWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="299" height="159"/>
+                        <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdJ-YB-C37" customClass="RSButtonWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="299" height="159"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="colorThemeButton"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dbr-vW-3tT" userLabel="themeIndex">
+                                <rect key="frame" x="22" y="28" width="255" height="103"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Dbr-vW-3tT" firstAttribute="top" secondItem="jdJ-YB-C37" secondAttribute="top" constant="28" id="0SC-6p-Vqt"/>
+                            <constraint firstItem="Dbr-vW-3tT" firstAttribute="bottom" secondItem="jdJ-YB-C37" secondAttribute="bottom" constant="-28" id="616-BC-4P4"/>
+                            <constraint firstItem="jdJ-YB-C37" firstAttribute="top" secondItem="7ho-Lh-epY" secondAttribute="top" id="6ol-VF-wqJ"/>
+                            <constraint firstItem="Dbr-vW-3tT" firstAttribute="leading" secondItem="jdJ-YB-C37" secondAttribute="leading" constant="22" id="I4D-v2-vYg"/>
+                            <constraint firstItem="jdJ-YB-C37" firstAttribute="leading" secondItem="7ho-Lh-epY" secondAttribute="leading" id="PLi-ll-m3k"/>
+                            <constraint firstItem="Dbr-vW-3tT" firstAttribute="trailing" secondItem="jdJ-YB-C37" secondAttribute="trailing" constant="-22" id="Z0V-5W-gVb"/>
+                            <constraint firstAttribute="bottom" secondItem="jdJ-YB-C37" secondAttribute="bottom" id="iay-Fa-ULR"/>
+                            <constraint firstAttribute="trailing" secondItem="jdJ-YB-C37" secondAttribute="trailing" id="yi6-Zd-aAo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7ho-Lh-epY" secondAttribute="bottom" id="As9-zk-ogN"/>
+                <constraint firstItem="7ho-Lh-epY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Su3-xK-n8a"/>
+                <constraint firstAttribute="trailing" secondItem="7ho-Lh-epY" secondAttribute="trailing" id="idt-xf-8f4"/>
+                <constraint firstItem="7ho-Lh-epY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="waj-ZC-gvj"/>
+            </constraints>
+            <size key="customSize" width="299" height="159"/>
+            <connections>
+                <outlet property="imageView" destination="Dbr-vW-3tT" id="cow-FO-4tH"/>
+            </connections>
+            <point key="canvasLocation" x="112.31884057971016" y="93.415178571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

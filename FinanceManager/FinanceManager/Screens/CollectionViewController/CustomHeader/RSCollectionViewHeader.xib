@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RSCollectionViewHeader" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="RSCollectionViewHeader" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="208"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Skj-Sd-y0V" customClass="RSViewWithGradient" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                    <rect key="frame" x="17" y="84" width="566" height="90"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ks6-gw-i1u" userLabel="backButton" customClass="RSIconButton" customModule="RSSchool_T12_FinanceManager" customModuleProvider="target">
+                            <rect key="frame" x="30" y="25" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="41l-br-RHo"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="A1s-Na-f02"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="eiM-fL-tdm"/>
+                                <constraint firstAttribute="height" constant="40" id="heD-wk-MwH"/>
+                            </constraints>
+                            <state key="normal" image="back"/>
+                            <connections>
+                                <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="KeA-cE-EhT"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCA-8d-aXd">
+                            <rect key="frame" x="90" y="30.5" width="49.5" height="29.5"/>
+                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="24"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Ks6-gw-i1u" firstAttribute="centerY" secondItem="Skj-Sd-y0V" secondAttribute="centerY" id="5m5-7r-Em6"/>
+                        <constraint firstItem="JCA-8d-aXd" firstAttribute="leading" secondItem="Ks6-gw-i1u" secondAttribute="trailing" constant="20" id="Jfa-e7-Ix5"/>
+                        <constraint firstItem="JCA-8d-aXd" firstAttribute="centerY" secondItem="Skj-Sd-y0V" secondAttribute="centerY" id="Vs0-VB-Ffv"/>
+                        <constraint firstItem="Ks6-gw-i1u" firstAttribute="leading" secondItem="Skj-Sd-y0V" secondAttribute="leading" constant="30" id="rcT-bk-MpR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <constraints>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="Skj-Sd-y0V" secondAttribute="trailing" constant="17" id="Pn7-qU-48s"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="Skj-Sd-y0V" secondAttribute="bottom" id="Ssv-Op-yU8"/>
+                <constraint firstItem="Skj-Sd-y0V" firstAttribute="top" secondItem="VXr-Tz-HHm" secondAttribute="top" constant="40" id="Unv-gu-Nla"/>
+                <constraint firstItem="Skj-Sd-y0V" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="17" id="sCx-F9-XX8"/>
+            </constraints>
+            <connections>
+                <outlet property="title" destination="JCA-8d-aXd" id="2bm-b8-tyj"/>
+            </connections>
+            <point key="canvasLocation" x="407.24637681159425" y="62.946428571428569"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="back" width="40" height="40"/>
+    </resources>
+</document>
